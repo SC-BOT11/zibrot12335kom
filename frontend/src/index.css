@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Global scrolling fixes */
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#root {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Ensure admin pages can scroll */
+.admin-content {
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* Fix for Material-UI containers */
+.MuiContainer-root {
+  overflow: visible !important;
+}
+
+/* Ensure proper scrolling in admin layout */
+.admin-main-content {
+  overflow-y: auto !important;
+  height: 100vh !important;
+}
+
+/* Fix for table scrolling */
+.MuiTableContainer-root {
+  overflow-x: auto !important;
+}
+
+/* Ensure dialog content can scroll */
+.MuiDialogContent-root {
+  overflow-y: auto !important;
+  max-height: 70vh !important;
+}
