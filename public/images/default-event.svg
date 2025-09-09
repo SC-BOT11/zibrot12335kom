@@ -1,0 +1,11 @@
+<svg width="400" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="200" fill="url(#gradient)"/>
+<defs>
+<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#9c27b0;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#763baa;stop-opacity:1" />
+</linearGradient>
+</defs>
+<text x="200" y="100" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" dy=".3em">Event Image</text>
+</svg>
+
